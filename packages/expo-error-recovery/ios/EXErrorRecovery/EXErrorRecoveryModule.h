@@ -3,7 +3,7 @@
 #import <UMCore/UMExportedModule.h>
 #import <UMCore/UMModuleRegistryConsumer.h>
 
-static NSString * const USER_DEFAULTS_KEY = @"expo.errorRecovery";
+static NSString * const USER_DEFAULTS_KEY = @"EX.expo.errorRecovery";
 
 @interface EXErrorRecoveryModule : UMExportedModule
 

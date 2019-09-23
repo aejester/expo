@@ -8,7 +8,7 @@ import org.unimodules.core.ModuleRegistry
 import org.unimodules.core.Promise
 import org.unimodules.core.interfaces.ExpoMethod
 
-private const val RECOVERY_STORE = "expo.modules.errorrecovery.store"
+const val RECOVERY_STORE = "expo.modules.errorrecovery.store"
 private const val RECOVERY_STORE_KEY = "recoveredProps"
 
 open class ErrorRecoveryModule(context: Context) : ExportedModule(context) {
